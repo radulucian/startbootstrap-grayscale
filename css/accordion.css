@@ -32,6 +32,7 @@ body {
 	-webkit-box-sizing:border-box; 
 	-moz-box-sizing:border-box; 
 	box-sizing:border-box;
+	border-bottom-color: #fff;
 	border-style: solid;
     border-width: 0.5px;
     border-top-style: none;
@@ -47,21 +48,29 @@ body {
 	background:#f7f7f7;
 }
 
+.accordion-section-content > p {
+	color: #000;
+	border-bottom-style: none;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
 /*----- Section Titles -----*/
 .accordion-section-title {
 	width:100%;
 	padding:15px;
 	display:inline-block;
 	background:#000;
+	text-transform: uppercase;
 	transition:all linear 0.15s;
 	/* Type */
 	font-size:1.200em;
 	text-shadow:0px 1px 0px #1a1a1a;
-	color:#fff;
+	/*color:#fff;*/
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
-	background:#1f1e1e;
+	background:#1d9b6c;
 	/* Type */
 	text-decoration:none;
 }
@@ -72,6 +81,7 @@ body {
 
 /*----- Section Content -----*/
 .accordion-section-content {
+	background-color: #d8d8d8;
 	padding:15px;
 	display:none;
 }
