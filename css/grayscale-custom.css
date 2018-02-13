@@ -53,6 +53,10 @@ h5 {
 	    font-size: 13px;
 	}
 
+	.banner {
+		width: 50px;
+	}
+
 	p {
 	    font-size: 15px;
 	}
@@ -88,13 +92,6 @@ h5 {
 
 }
 
-/*	.navbar-expand-lg .navbar-collapse {
-	    display: -ms-flexbox!important;
-	    display: flex!important;
-	    -ms-flex-preferred-size: auto;
-	    flex-basis: auto;
-	    font-size: 14px;
-	}*/
 
 a {
     -webkit-transition: all .2s ease-in-out;
