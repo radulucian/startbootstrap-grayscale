@@ -36,15 +36,14 @@
 
     <style type="text/css">
       .flex-caption {
-        width: 96%;
+        width: 100%;
         padding: 2%;
         left: 0;
         bottom: 0;
-        background: rgba(0,0,0,.5);
         color: #fff;
-        text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-        font-size: 14px;
+        font-size: 18px;
         line-height: 18px;
+        margin-top: -66px;
       }
       li.css a {
         border-radius: 0;
@@ -245,7 +244,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>Activitati</h2>
           <div>
-                <div class="flexslider" id="f1" style="direction:rtl">
+                <div class="flexslider" id="f1">
                   <ul class="slides">
                     <li>
                       <img src="images/corsica-1.jpg" />
@@ -297,7 +296,7 @@
                     </li>
                   </ul>
                 </div>
-            <div class="flexslider carousel" id="f2" style="direction:rtl">
+            <div class="flexslider carousel" id="f2">
                   <ul class="slides">
                     <li>
                       <img src="images/corsica-1.jpg" />
@@ -385,7 +384,7 @@
       $(window).load(function(){
         $('#f1').flexslider({
           animation: "slide",
-          rtl: true,
+          rtl: false,
           start: function(slider){
             $('body').removeClass('loading');
           }
@@ -397,7 +396,7 @@
           itemMargin: 5,
           pausePlay: false,
           mousewheel: false,
-          rtl: true,
+          rtl: false,
           asNavFor:'.flexslider'
         });
       });

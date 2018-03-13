@@ -72,7 +72,12 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * DEFAULT THEME
  * ====================================================================================================================*/
+ .flex-caption p {
+  background: red;
+ }
 .flexslider {
+  width: 1000px;
+  height: 700px;
   margin: 0 0 60px;
   background: #fff;
   border: 4px solid #fff;
@@ -87,15 +92,14 @@ html[xmlns] .flexslider .slides {
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .flexslider .slides {
-  zoom: 0.5;
+  zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
+    width: 1000px;
+  height: 700px;
   -moz-user-select: none;
 }
 .flex-viewport {
-  max-height: 768px;
-  max-width: 1360px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -103,7 +107,7 @@ html[xmlns] .flexslider .slides {
   transition: all 1s ease;
 }
 .loading .flex-viewport {
-  max-height: 768px;
+  max-height: 700px;
 }
 .carousel li {
   margin-right: 5px;
@@ -207,13 +211,13 @@ html[xmlns] .flexslider .slides {
   *display: inline;
 }
 .flex-control-paging li a {
-  width: 11px;
-  height: 11px;
+  width: 21px;
+  height: 21px;
   display: block;
   background: #666;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  text-indent: -9999px;
+  /*text-indent: -9999px;*/
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
@@ -227,8 +231,8 @@ html[xmlns] .flexslider .slides {
   background: rgba(0, 0, 0, 0.7);
 }
 .flex-control-paging li a.flex-active {
-  background: #000;
-  background: rgba(0, 0, 0, 0.9);
+  color: : #fff;
+  background: #1d9b6c;
   cursor: default;
 }
 .flex-control-thumbs {
