@@ -24,6 +24,33 @@
     <link rel="stylesheet" type="text/css" href="css/grayscale-custom.css">
     <link rel="stylesheet" type="text/css" href="css/accordion.css">
 
+    <!-- Syntax Highlighter -->
+    <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <!-- Demo CSS -->
+    <!-- <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="css/flexslider-rtl.css" type="text/css" media="screen" />
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <style type="text/css">
+      .flex-caption {
+        width: 96%;
+        padding: 2%;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+        font-size: 14px;
+        line-height: 18px;
+      }
+      li.css a {
+        border-radius: 0;
+      }
+    </style>
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
     <script type="text/javascript" src="js/accordion.js"></script>
@@ -217,59 +244,102 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Activitati</h2>
-              <div class="carousel slide" id="myCarousel">
-              <div class="carousel-inner">
-       
-                  <div class="item active">
-                  
-                      <div class="bannerImage">
-                          <img src="img/under-construction.png" alt=""></a>
-                      </div>
-                                  
-                      <div class="caption row-fluid">
-                          <div class="span4"><h3>Sectiune in Constructie</h3></div>                  
-                          <div class="span8"></div>
-                      </div>
-                                                               
-                  </div><!-- /Slide1 --> 
-
-                  <div class="item">
-                  
-                      <div class="bannerImage">
-                          <img src="img/under-construction.png" alt=""></a>
-                      </div>
-                                  
-                      <div class="caption row-fluid">
-                          <div class="span4"><h3>Sectiune in Constructie</h3></div>                    
-                          <div class="span8"></div>
-                      </div>
-                                                               
-                  </div><!-- /Slide2 -->             
-
-                  <div class="item">
-                  
-                      <div class="bannerImage">
-                          <img src="img/under-construction.png" alt=""></a>
-                      </div>
-                                  
-                      <div class="caption row-fluid">
-                          <div class="span4"><h3>Sectiune in Constructie</h3></div>                     
-                          <div class="span8"></div>
-                      </div>
-                                                               
-                  </div><!-- /Slide2 -->                      
-       
-              </div>
-              
-                                    
-          </div><!-- /#myCarousel -->
-              <div class="control-box">                            
-                  <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
-                  <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-              </div><!-- /.control-box -->   
+          <div>
+                <div class="flexslider" id="f1" style="direction:rtl">
+                  <ul class="slides">
+                    <li>
+                      <img src="images/corsica-1.jpg" />
+                      <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-2.jpg" />
+                      <p class="flex-caption">Adventurer Lemon</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-3.jpg" />
+                      <p class="flex-caption">Adventurer Donut</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-4.jpg" />
+                      <p class="flex-caption">Adventurer Caramel</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-5.jpg" />
+                      <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-6.jpg" />
+                      <p class="flex-caption">Adventurer Lemon</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-7.jpg" />
+                      <p class="flex-caption">Adventurer Donut</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-8.jpg" />
+                      <p class="flex-caption">Adventurer Caramel</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-9.jpg" />
+                      <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-10.jpg" />
+                      <p class="flex-caption">Adventurer Lemon</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-11.jpg" />
+                      <p class="flex-caption">Adventurer Donut</p>
+                    </li>
+                    <li>
+                      <img src="images/corsica-12.jpg" />
+                      <p class="flex-caption">Adventurer Caramel</p>
+                    </li>
+                  </ul>
+                </div>
+            <div class="flexslider carousel" id="f2" style="direction:rtl">
+                  <ul class="slides">
+                    <li>
+                      <img src="images/corsica-1.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-2.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-3.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-4.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-5.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-6.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-7.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-8.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-9.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-10.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-11.jpg" />
+                    </li>
+                    <li>
+                      <img src="images/corsica-12.jpg" />
+                    </li>
+                  </ul>
+                </div>
           </div>
-      
       </div>
+    </div>
     </section>
 
     <section id="parteneri" class="content-section text-center" style="padding-bottom: 50px;">
@@ -297,7 +367,6 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -305,6 +374,45 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- FlexSlider -->
+    <script defer src="js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('#f1').flexslider({
+          animation: "slide",
+          rtl: true,
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+        });
+       $('#f2').flexslider({
+          animation: "slide",
+          animationLoop: false,
+          itemWidth: 210,
+          itemMargin: 5,
+          pausePlay: false,
+          mousewheel: false,
+          rtl: true,
+          asNavFor:'.flexslider'
+        });
+      });
+    </script>
+
+
+    <!-- Syntax Highlighter -->
+<!--     <script type="text/javascript" src="js/shCore.js"></script>
+    <script type="text/javascript" src="js/shBrushXml.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script> -->
+
+    <!-- Optional FlexSlider Additions -->
+    <!-- <script src="js/jquery.easing.js"></script> -->
+    <!-- <script src="js/jquery.mousewheel.js"></script> -->
+    <!-- <script defer src="js/demo.js"></script> -->
 
   </body>
 
