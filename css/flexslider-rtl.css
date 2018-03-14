@@ -41,20 +41,20 @@
   content: '\f001';
 }
 .flex-direction-nav .flex-prev {
-  left: auto; right: -50px;
+  right: auto; left: -50px;
 }
 .flex-direction-nav .flex-next {
-  right: auto; left: -50px;
+  left: auto; right: -50px;
   text-align: left;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
-  left: auto; right: 10px;
+  right: auto; left: 10px;
 }
 
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
-  right: auto; left: 10px;
+  left: auto; right: 10px;
 }
 
 
