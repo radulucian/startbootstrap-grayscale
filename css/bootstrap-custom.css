@@ -129,11 +129,11 @@
 	padding-top: 50px;
 }
 div.gallery {
-        border: 1px solid #ccc;
+        border: 1px solid #000;
     }
 
     div.gallery:hover {
-        border: 1px solid #777;
+        border: 1px solid #000;
     }
 
     div.gallery img {

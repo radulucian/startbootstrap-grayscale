@@ -125,3 +125,7 @@ p {
 footer {
     padding: 20px 0;
 }
+
+.navbar-brand img {
+	margin-top: -4px;
+}
