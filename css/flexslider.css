@@ -270,7 +270,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-caption {
         width: 100%;
-        padding: 2%;
+        padding: 2.4%;
         left: 0;
         bottom: 0;
         color: #fff;
@@ -295,5 +295,11 @@ li.css a {
   }
   #f1{
   display: none;
+  }
+  .flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+  text-align: center;
   } 
 }
