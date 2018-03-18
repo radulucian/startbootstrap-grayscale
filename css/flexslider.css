@@ -268,16 +268,7 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
-.flex-caption {
-        width: 100%;
-        padding: 2.4%;
-        left: 0;
-        bottom: 0;
-        color: #fff;
-        font-size: 18px;
-        line-height: 18px;
-        margin-top: -66px;
-}
+
 li.css a {
         border-radius: 0;
 }
@@ -302,4 +293,30 @@ li.css a {
   bottom: -60px;
   text-align: center;
   } 
+}
+
+@media (min-width: 1380px){
+  .flex-caption {
+        width: 100%;
+        padding: 2%;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: -66px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1380px){
+  .flex-caption {
+        width: 100%;
+        padding: 2.6%;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: -66px;
+}
 }
